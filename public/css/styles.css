@@ -572,6 +572,14 @@ a {
   left: 2.5rem;
 }
 
+.left-5 {
+  left: 1.25rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -834,11 +842,6 @@ a {
   border-color: rgb(188 26 69 / var(--tw-border-opacity));
 }
 
-.border-gega-melon {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 211 105 / var(--tw-border-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -866,6 +869,11 @@ a {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1001,6 +1009,11 @@ a {
   line-height: 2.5rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1046,6 +1059,16 @@ a {
   color: transparent;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1081,14 +1104,14 @@ a {
   line-height: 1rem;
 }
 
-.hover\:bg-rose-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(225 29 72 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gega-red:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(188 26 69 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-rose-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 29 72 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gega-grey:hover {
@@ -1157,6 +1180,26 @@ a {
 
 .group:hover .group-hover\:opacity-50 {
   opacity: 0.5;
+}
+
+.dark .dark\:bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-gega-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:text-gega-grey {
+  --tw-text-opacity: 1;
+  color: rgb(221 221 221 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
